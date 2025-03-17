@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas:
+        "header header header header header header"
+        "main main main main sidebar sidebar"
+        "main main main main sidebar sidebar"
+        "main main main main sidebar sidebar"
+        "main main main main sidebar sidebar"
+        "footer footer footer footer footer footer";
+    gap: 10px 10px;
+    /* row 하고 column이 옴 */
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+}
+.item-1 {
+    grid-area: header;
+    background-color: yellow;
+}
+.item-2 {
+    grid-area: main;
+    background-color: coral;
+}
+.item-3 {
+    grid-area: sidebar;
+    background-color: skyblue;
+}
+.item-4 {
+    grid-area: footer;
+    background-color: lightgreen;
+}

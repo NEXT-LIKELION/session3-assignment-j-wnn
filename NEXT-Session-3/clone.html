@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>YouTube</title>
+        <link rel="stylesheet" href="clone.css" />
+        <link rel="icon" href="youtube_favicon.svg" type="image/svg+xml" />
+    </head>
+    <body>
+        <!--헤더 영역-->
+        <header>
+            <!--왼쪽 헤더 영역-->
+            <div class="left_header">
+                <img src="menu icon.png" width="24px" height="24px" />
+                <img
+                    src="YouTube-Premium-logo.svg"
+                    width="101 px"
+                    height="20 px"
+                    class="main-logo"
+                />
+            </div>
+            <!--가운데 헤더 영역-->
+            <div class="center_header">
+                <input type="text" class="searchbox" placeholder="검색" />
+                <button class="search-button">
+                    <img
+                        src="detective-magnifying-glass.png"
+                        width="24px"
+                        height="24px"
+                    />
+                </button>
+                <button class="voice-search">
+                    <img src="mic.png" width="24px" height="24px" />
+                </button>
+            </div>
+            <!--오른쪽 헤더 영역-->
+            <div class="right_header">
+                <div class="new-content">
+                    <img src="add.png" width="18px" height="18px" />
+                    <div class="make">만들기</div>
+                </div>
+                <img
+                    src="profile.png"
+                    width="32px"
+                    height="32px"
+                    class="right-profile"
+                />
+            </div>
+        </header>
+        <div class="container">
+            <!--사이드바 영역-->
+            <nav class="sidebar">
+                <!--사이드바 상단-->
+                <nav class="upper">
+                    <nav class="sidebar-content">
+                        <img src="home.png" width="24px" height="24px" />
+                        <nav>홈</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="youtube-shorts-logo-01.png"
+                            width="28px"
+                            height="28px"
+                        />
+                        <nav>Shorts</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="subscription.png"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img src="music.png" width="24px" height="24px" />
+                        <nav>YouTube Music</nav>
+                    </nav>
+                </nav>
+                <!--사이드바 중단-->
+                <nav class="middle">
+                    <h4>내 페이지 ></h4>
+                    <nav class="sidebar-content">
+                        <img src="history.png" width="24px" height="24px" />
+                        <nav>시청 기록</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img src="playlist.png" width="22px" height="22px" />
+                        <nav>재생목록</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img src="myvideo.png" width="24px" height="24px" />
+                        <nav>내 동영상</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img src="mymovie.png" width="24px" height="24px" />
+                        <nav>내 영화</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img src="clock.png" width="24px" height="24px" />
+                        <nav>나중에 볼 동영상</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img src="like.png" width="28px" height="28px" />
+                        <nav>좋아요 표시한 동영상</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img src="download.png" width="22px" height="22px" />
+                        <nav>오프라인 저장 동영상</nav>
+                    </nav>
+                </nav>
+                <!--사이드바 하단-->
+                <nav class="lower">
+                    <h4>구독</h4>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독 채널 예시</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독 채널 예시</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독 채널 예시</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독 채널 예시</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독 채널 예시</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독 채널 예시</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>구독 채널 예시</nav>
+                    </nav>
+                    <nav class="sidebar-content">
+                        <img
+                            src="channel-icon-1.jpg"
+                            width="24px"
+                            height="24px"
+                        />
+                        <nav>더보기</nav>
+                    </nav>
+                </nav>
+            </nav>
+            <!--동영상-->
+            <main class="content">
+                <div class="carrousel">
+                    <div class="element">전체</div>
+                    <div class="element">음악</div>
+                    <div class="element">믹스</div>
+                    <div class="element">게임</div>
+                    <div class="element">뉴스</div>
+                    <div class="element">팟캐스트</div>
+                    <div class="element">라이브</div>
+                    <div class="element">야구</div>
+                    <div class="element">요리</div>
+                    <div class="element">축구</div>
+                    <div class="element">최근에 업로드된 동영상</div>
+                </div>
+                <div class="grid">
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail-1.jpg" class="thumbnail" />
+                        <div class="information">
+                            <img
+                                src="channel-icon-1.jpg"
+                                class="channel-icon"
+                            />
+                            <div class="description">
+                                <h3>동영상 제목입니다</h3>
+                                <p>채널명</p>
+                                <p>조회수 100만회 • 1일 전</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
